@@ -121,8 +121,20 @@ button {
         justify-content: center;
         align-items: center;
         border-radius: 5px;
-        &:hover {
-            background-color: #868686;
-        }
+    }
+}
+
+.popup {
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    &__text {
+        margin-bottom: .3125rem;
+    }
+    &__winner {
+        font-size: 1.875rem;
+        color:#0FD85C;
     }
 }
