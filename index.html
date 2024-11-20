@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/index-page.js" defer></script>
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <title>Hackathon</title>
+  </head>
+
+  <!-- POKEMON BATTLE -->
+  <body>
+    <nav class="navbar">
+      <h1 class="title">Pokémon Battle Simulator</h1>
+    </nav>
+    <main class="container">
+      <!-- LEFT SIDE OF CONTAINER -->
+      <div class="container__left">
+        <article class="pokemon">
+          <h2 id="pokemon1--name" class="pokemon__name">Pikachu</h2>
+          <div id="pokemon1--image" class="pokemon__image"></div>
+          <div class="pokemon__attacks">
+            <div class="pokemon__attacks-top">
+              <p id="pokemon1--type" class="pokemon__attack">ATTACK</p>
+              <p id="pokemon1--defense" class="pokemon__attack">ATTACK</p>
+            </div>
+            <div class="pokemon__attacks-bottom">
+              <p id="pokemon1--abilities" class="pokemon__attack">ATTACK</p>
+              <p id="pokemon1--speed" class="pokemon__attack">ATTACK</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- MIDDLE CONTAINER -->
+      <div class="container__middle">
+        <p class="vs">VS.</p>
+        <button class="button__randomize">Randomize Pokemon</button>
+        <button class="button__battle">Battle Now!</button>
+      </div>
+
+      <!-- RIGHT SIDE OF CONTAINER -->
+      <div class="container__right">
+        <article class="pokemon">
+          <h2 id="pokemon2--name" class="pokemon__name">Pikachu</h2>
+          <div id="pokemon2--image" class="pokemon__image"></div>
+          <div class="pokemon__attacks">
+            <div class="pokemon__attacks-top">
+              <p id="pokemon2--type" class="pokemon__attack">ATTACK</p>
+              <p id="pokemon2--defense" class="pokemon__attack">ATTACK</p>
+            </div>
+            <div class="pokemon__attacks-bottom">
+              <p id="pokemon2--abilities" class="pokemon__attack">ATTACK</p>
+              <p id="pokemon2--speed" class="pokemon__attack">ATTACK</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

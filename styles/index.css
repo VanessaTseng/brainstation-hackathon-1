@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1C1C1C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+button {
+  border: none;
+  width: 12.5rem;
+  height: 3.75rem;
+  margin: 0.625rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.vs {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.button__randomize {
+  background-color: #3328B9;
+  opacity: 70%;
+  color: white;
+  font-size: 16px;
+}
+.button__randomize:hover {
+  opacity: 100%;
+}
+.button__randomize:active {
+  border: 1px solid white;
+}
+.button__battle {
+  background-color: #A73B3B;
+  opacity: 70%;
+  color: white;
+  font-size: 16px;
+}
+.button__battle:hover {
+  background-color: #A73B3B;
+  opacity: 100%;
+}
+.button__battle:active {
+  border: 1px solid white;
+}
+
+.navbar {
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.25rem;
+  background-color: #333333;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3.125rem;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemon__name {
+  margin-bottom: 10px;
+}
+.pokemon__image {
+  background-color: #333333;
+  width: 21.875rem;
+  height: 25rem;
+  border-radius: 5px;
+}
+.pokemon__attacks {
+  margin: 0.625rem;
+}
+.pokemon__attacks-top {
+  display: flex;
+  width: 21.875rem;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+.pokemon__attacks-bottom {
+  display: flex;
+  width: 21.875rem;
+  justify-content: space-between;
+}
+.pokemon__attack {
+  background-color: #333333;
+  color: white;
+  width: 170px;
+  height: 3.75rem;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.pokemon__attack:hover {
+  background-color: #868686;
+}/*# sourceMappingURL=index.css.map */
